@@ -1,0 +1,14 @@
+{
+    "fileFormatVersion": "1",
+    "parameterSets": {
+        "New set 1": {
+            "mode": "B",
+            "productLogo": "none"
+        },
+        "New set 2": {
+            "count": "5",
+            "mode": "B",
+            "productLogo": "PC"
+        }
+    }
+}
