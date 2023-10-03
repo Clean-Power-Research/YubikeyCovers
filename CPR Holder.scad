@@ -58,9 +58,9 @@ module logos()
 }
 
 rotate([90,0,0])
-for (offset = [0:count])
+for (offset = [1:count])
 {
-    translate([0, 0, 1.5*(2*wallthickness+gap)*offset])
+    translate([0, 0, 1.5*(2*wallthickness+gap)*(offset-1)])
     if (mode == "L")
     {
         logos();

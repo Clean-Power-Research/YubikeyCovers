@@ -7,7 +7,12 @@
         },
         "New set 2": {
             "count": "5",
-            "mode": "B",
+            "mode": "L",
+            "productLogo": "PC"
+        },
+        "New set 3": {
+            "count": "3",
+            "mode": "L",
             "productLogo": "PC"
         }
     }
