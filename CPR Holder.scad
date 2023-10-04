@@ -1,4 +1,4 @@
-include <roundedcube.scad>;
+include <includes/roundedcube.scad>;
 
 // in order to print multiple colors, need multiple models
 mode = "B"; // [B:body, L:logo]
@@ -38,7 +38,7 @@ module logos()
         rotate([0,0,90])
         linear_extrude(wallthickness/2)
             resize([0,15,0], auto=true)
-                import(file = "CPR Logo Only.svg");                
+                import(file = "logos/CPR Logo Only.svg");                
     
     // add product logo
     if (productLogo != "none")
@@ -49,9 +49,9 @@ module logos()
                     resize([0,12,0], auto=true)
                     {
                         if (productLogo == "WP")
-                            import(file = "wattplan-logo-only.svg"); 
+                            import(file = "logos/wattplan-logo-only.svg"); 
                         else if (productLogo == "PC")
-                            import(file = "powerclerk-logo-only.svg"); 
+                            import(file = "logos/powerclerk-logo-only.svg"); 
                     }
 
     }
