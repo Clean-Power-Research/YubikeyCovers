@@ -2,23 +2,10 @@
     "fileFormatVersion": "1",
     "parameterSets": {
         "New set 1": {
+            "countX": "2",
+            "countZ": "2",
             "mode": "B",
             "productLogo": "none"
-        },
-        "New set 2": {
-            "count": "5",
-            "mode": "L",
-            "productLogo": "PC"
-        },
-        "New set 3": {
-            "count": "3",
-            "mode": "L",
-            "productLogo": "PC"
-        },
-        "New set 4": {
-            "count": "1",
-            "mode": "B",
-            "productLogo": "WP"
         }
     }
 }
